@@ -1,14 +1,19 @@
 # Backend for the case study
+
 Simple backend for the case study.
 You are free to make your own if you prefer.
 
 ## API
+
 The API exposes two models:
-* dimensions
-* indicators
+
+- dimensions
+- indicators
 
 ## Usage
+
 ### Native
+
 You will need Poetry and Python installed.
 
 Install the backend with: `poetry install`
@@ -16,6 +21,7 @@ Install the backend with: `poetry install`
 Then run it with: `poetry run uvicorn backend.main:app --reload --port 8080`
 
 ### Docker
+
 ```shell
 # Build the backend
 ./docker_build.sh
